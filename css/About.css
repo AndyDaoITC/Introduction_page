@@ -1,0 +1,14 @@
+.links {
+    text-decoration: none;
+    font-size: 25px;
+}
+.white {
+    color: white;
+    padding-left: 20px;
+}
+.white:hover {
+    color: rgb(33,209,146);
+}
+.ps {
+    font-size: 10px;
+}
