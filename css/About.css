@@ -12,3 +12,27 @@
 .ps {
     font-size: 10px;
 }
+
+#botToTop {
+    font-size: 40px;
+    color: grey;
+    position: fixed;
+    top: 85%;
+    left: 95%;
+    cursor: pointer;
+    display: none;
+    animation: updown linear 2s infinite;
+}
+
+@keyframes updown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+#botToTop:hover {
+    color: red;
+}
